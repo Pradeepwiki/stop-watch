@@ -1,0 +1,16 @@
+.stopwatch {
+    text-align: center;
+  }
+#time {
+    font-size: 3rem;
+    color: greenyellow;
+}
+
+
+body{
+  margin: 0; /* Remove default margin to ensure the background covers the entire viewport */
+  background-image: url('./assets/joseph-lee-91GoOxSWqm8-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
