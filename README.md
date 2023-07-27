@@ -1,2 +1,2 @@
 # stop-watch
-Vanilla JavaScript , HTML5 , CSS3
+Vanilla JavaScript , HTML5 , CSS3 , Bootstrap
