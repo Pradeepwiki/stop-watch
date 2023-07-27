@@ -6,11 +6,6 @@
     color: greenyellow;
 }
 
-.buttons img:hover{
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-  border-radius: 50%;
-}
-
 #start {
   background-color: green;
 }
