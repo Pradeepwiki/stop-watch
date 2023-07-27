@@ -6,6 +6,22 @@
     color: greenyellow;
 }
 
+.buttons img:hover{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+}
+
+#start {
+  background-color: green;
+}
+
+.heading{
+  text-align: center;
+  margin: 30px auto;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  font-family: monospace;
+}
 
 body{
   margin: 0; /* Remove default margin to ensure the background covers the entire viewport */
