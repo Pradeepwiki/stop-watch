@@ -1,16 +1,24 @@
 .stopwatch {
-    text-align: center;
-  }
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10%;
+  padding: 10px;
+  max-width: 300px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 #time {
-    font-size: 3rem;
-    color: greenyellow;
+  font-size: 3rem;
+  color: greenyellow;
 }
 
 #start {
   background-color: green;
 }
 
-.heading{
+.heading {
   text-align: center;
   margin: 30px auto;
   font-size: 2rem;
@@ -18,10 +26,19 @@
   font-family: monospace;
 }
 
-body{
-  margin: 0; /* Remove default margin to ensure the background covers the entire viewport */
+body {
+  margin: 0;
+  /* Remove default margin to ensure the background covers the entire viewport */
   background-image: url('./assets/joseph-lee-91GoOxSWqm8-unsplash.jpg');
   background-size: cover;
-  background-repeat: no-repeat; 
-  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* Media query for small device */
+@media screen and (max-width: 576px) {
+  .stopwatch {
+    max-width: 70%;
+  }
 }
