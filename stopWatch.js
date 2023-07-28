@@ -53,7 +53,7 @@ startBtn.addEventListener("click", function (flag) {
 
         // calling start() function recursivly to continue stopwatch
         // start();
-
+        //
     }, 10); // setTimeout delay time 10 milliseconds
 });
 
